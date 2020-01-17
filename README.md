@@ -23,18 +23,17 @@ Used Keras Sequential API to create a model.
 Created with 3-dense hidden layer with 150,100,50 neurons respectively.
 Used Sigmoid activation function for output layer.
 #### Model Summary
-Model: "sequential_2"
-_________________________________________________________________
+
 Layer (type)      |          Output Shape   |           Param 
-=================================================================
+
 dense_5 (Dense)              (None, 150)               25200
-_________________________________________________________________
-dense_6 (Dense)              (None, 100)               15100     
-_________________________________________________________________
-dense_7 (Dense)              (None, 50)                5050      
-_________________________________________________________________
-dense_8 (Dense)              (None, 1)                 51        
-=================================================================
+
+dense_6 (Dense)              (None, 100)               15100
+
+dense_7 (Dense)              (None, 50)                5050
+
+dense_8 (Dense)              (None, 1)                 51
+
 Total params: 45,401
 Trainable params: 45,401
 Non-trainable params: 0
