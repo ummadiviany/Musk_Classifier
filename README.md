@@ -3,7 +3,7 @@
 
 ##
 
-###Data Pre-Processing:
+### Data Pre-Processing:
 
 1)Removed "conformation_name" column due to large number of unique values.
 2)Converted "molecule_name" Categorical values to numerical encodings.
@@ -22,12 +22,12 @@ used sklearn "train_test_split" to split it into X_train, X_test, y_train, y_tes
 Used Keras Sequential API to create a model.
 Created with 3-dense hidden layer with 150,100,50 neurons respectively.
 Used Sigmoid activation function for output layer.
-####Model Summary
+#### Model Summary
 Model: "sequential_2"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)      |          Output Shape   |           Param 
 =================================================================
-dense_5 (Dense)              (None, 150)               25200     
+dense_5 (Dense)              (None, 150)               25200
 _________________________________________________________________
 dense_6 (Dense)              (None, 100)               15100     
 _________________________________________________________________
@@ -39,17 +39,19 @@ Total params: 45,401
 Trainable params: 45,401
 Non-trainable params: 0
 
-###Results-Visualization:
+### Results-Visualization:
 
-####Test loss: 0.0007406226365040339
-####Test accuracy: 1.0
+#### Test loss: 0.0007406226365040339
+#### Test accuracy: 1.0
 
 #### Confusion_matrix
 [[1116    0]
  [   0  204]]
 
-####Classification_report
-              precision    recall  f1-score   support
+#### Classification_report
+
+
+              precision  |  recall | f1-score |  support
 
            0       1.00      1.00      1.00      1116
            1       1.00      1.00      1.00       204
